@@ -39,7 +39,7 @@
   }
 
   // "appeared" custom filter
-  $.expr[':']['appeared'] = function(element) {
+  $.expr[':'].appeared = function(element) {
     var $element = $(element);
     if (!$element.is(':visible')) {
       return false;
